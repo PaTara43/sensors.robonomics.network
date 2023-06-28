@@ -29,7 +29,7 @@ export default {
       "swarm.connect",
     ],
   },
-  REMOTE_PROVIDER: "https://roseman.airalab.org/",
+  REMOTE_PROVIDER: "https://robonomics.rpc.multi-agent.io:3215/",
   // REMOTE_PROVIDER: "http://localhost:3000/",
   WIND_PROVIDER: "https://wind.airalab.org/latest",
   MAP: {
