@@ -76,7 +76,7 @@ export default {
           name: "main",
           params: {
             provider: this.$route.params.provider || "remote",
-            type: this.$route.params.type || "pm10",
+            type: this.$route.params.type || "pressure",
             zoom: e.target.getZoom(),
             lat: pos.lat.toFixed(4),
             lng: pos.lng.toFixed(4),

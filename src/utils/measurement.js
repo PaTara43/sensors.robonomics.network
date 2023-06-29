@@ -18,7 +18,7 @@ export const measurements = {
     icon: "soap",
     chartColor: "#2d7ac7",
     colors: ["#fc0202", "#ff9d00", "#60bc2a", "#ff9d00", "#fc0202"],
-    range: [0, 5, 10, 25, 100],
+    range: [40, 42, 44, 46, 50],
     states: ["danger", "attention", "good", "attention", "danger", "neutral"],
     calc: function (v) {
       return toFixed(Number(v));

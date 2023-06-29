@@ -77,7 +77,7 @@ export default {
       default: "remote",
     },
     type: {
-      default: "pm10",
+      default: "pressure",
     },
     zoom: {
       default: mapPosition.zoom,
