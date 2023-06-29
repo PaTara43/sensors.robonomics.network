@@ -10,7 +10,7 @@
         <div class="sensors-select blue">
           <select v-model="locale">
             <option value="en">English</option>
-            <option value="ru">Русский</option>
+            <option value="es">Español</option>
           </select>
           <font-awesome-icon icon="fa-solid fa-sort" />
         </div>

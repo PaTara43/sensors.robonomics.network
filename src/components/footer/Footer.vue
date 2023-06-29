@@ -43,11 +43,11 @@
             :class="[!realtime ? 'disabled' : null]"
             :helper="$t('layer.help')"
           />
-          <Switcher
+          <!-- <Switcher
             id="messages"
             v-model="messages"
             :title="$t('layer.messages')"
-          />
+          /> -->
         </div>
 
         <div class="sensors-dateselect__history">

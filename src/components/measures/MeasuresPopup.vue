@@ -42,8 +42,8 @@ export default {
 
   data() {
     return {
-      select: "PM10",
-      measures: ["PM10", "PM2.5", "CO", "NH3", "NO2", "Tmp"],
+      select: "Pressure",
+      measures: ["Pressure"],
     };
   },
   computed: {
@@ -74,7 +74,8 @@ export default {
 
 .measures__wrapper {
   padding-right: 2rem;
-  height: 230px;
+  height: 50px;
+  width: 200px;
   overflow-y: auto;
 }
 
