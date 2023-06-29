@@ -124,7 +124,6 @@ export default {
   },
   computed: {
     isLocationRussion() {
-      console.log(this.address)
       return (
         this.address.country === "Rusia" || this.address.country === "Russia"
       );
