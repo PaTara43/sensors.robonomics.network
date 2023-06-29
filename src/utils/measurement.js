@@ -18,7 +18,7 @@ export const measurements = {
     icon: "soap",
     chartColor: "#2d7ac7",
     colors: ["#fc0202", "#ff9d00", "#60bc2a", "#ff9d00", "#fc0202"],
-    range: [40, 42, 44, 46, 50],
+    range: [10, 20, 30, 40, 50],
     states: ["danger", "attention", "good", "attention", "danger", "neutral"],
     calc: function (v) {
       return toFixed(Number(v));
@@ -28,5 +28,5 @@ export const measurements = {
 };
 
 export default function (param) {
-  return measurements[param] || measurements["pm10"];
+  return measurements[param] || measurements["pressure"];
 }

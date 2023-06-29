@@ -3,7 +3,7 @@ import messages from "../translate";
 
 export function useI18n(app) {
   const i18n = createI18n({
-    locale: localStorage.getItem("locale") || "en",
+    locale: localStorage.getItem("locale") || "es",
     messages,
   });
 

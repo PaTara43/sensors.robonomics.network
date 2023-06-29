@@ -74,7 +74,7 @@ const mapPosition = getMapPosiotion();
 export default {
   props: {
     provider: {
-      default: "remote",
+      default: "ipfs",
     },
     type: {
       default: "pressure",
